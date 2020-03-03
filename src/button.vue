@@ -1,9 +1,5 @@
 <template>
-  <button
-    class="g-button"
-    :class="{ [`icon-${iconPosition}`]: true }"
-    @click="$emit('click')"
-  >
+  <button class="g-button" :class="{ [`icon-${iconPosition}`]: true }" @click="$emit('click')">
     <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
     <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
     <div class="content">
@@ -16,6 +12,7 @@
 import Icon from "./icon";
 
 export default {
+  name: "GuluButton",
   components: { "g-icon": Icon },
   props: {
     icon: {},
@@ -34,7 +31,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss"  scoped>
 @keyframes spin {
   0% {
     transform: rotate(0deg);
