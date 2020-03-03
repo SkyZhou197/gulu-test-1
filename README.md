@@ -52,12 +52,6 @@ import 'skyzhou-test-1/dist/index.css'
   }
 ```
 
-4. 引入 svg symbols
-
-```
-<script src="//at.alicdn.com/t/font_1665775_kzk8fs41dl7.js"></script>
-```
-
 ## 文档
 
 ## 提问
