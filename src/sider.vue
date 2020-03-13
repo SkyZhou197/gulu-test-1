@@ -2,11 +2,12 @@
   <transition name="slide">
     <div class="sider" v-if="visible">
       <slot></slot>
-      <button @click="visible=false">close</button>
+      <g-button @click="visible=false">关闭</g-button>
     </div>
   </transition>
 </template>
 <script>
+import Button from "./button";
 export default {
   name: "GuluSider",
   data() {
@@ -14,7 +15,10 @@ export default {
       visible: true
     };
   },
-  methods: {}
+  methods: {},
+  components: {
+    "g-button": Button
+  }
 };
 </script>
 
