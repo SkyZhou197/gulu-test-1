@@ -115,6 +115,7 @@ $toast-bg: rgba(0, 0, 0, 0.75);
   }
 }
 .wrapper {
+  z-index: 30;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <g-button @click="onClickButton">上方弹出</g-button>
+    <g-button @click="onClickButton">明天天气</g-button>
   </div>
 </template>
 
@@ -19,12 +19,10 @@ export default {
 
   methods: {
     onClickButton() {
-      this.$toast("你知道我在等你吗？", {
+      this.$toast("明天要下雨", {
         closeButton: {
-          text: "知道了",
-          callback: () => {
-            console.log("他说知道了");
-          }
+          text: "关闭",
+          callback: () => {}
         }
       });
     }
