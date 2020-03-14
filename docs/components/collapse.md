@@ -22,7 +22,7 @@ g-collapse 必须接受:
     <g-collapse-item title="标题三" name="three">内容三</g-collapse-item>
 </g-collapse>
 ```
-
+预览如下:
 <ClientOnly>
 <collapse-d-1></collapse-d-1>
 </ClientOnly>
@@ -37,7 +37,7 @@ collapse 可以接受一个 **single** 属性，表示将只有一项可以作�
     <g-collapse-item title="标题三" name="three">内容三</g-collapse-item>
 </g-collapse>
 ```
-
+预览如下:
 <ClientOnly>
 <collapse-d-2></collapse-d-2>
 </ClientOnly>
