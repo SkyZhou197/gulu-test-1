@@ -1,8 +1,10 @@
-# 轱辘 - 一个 Vue UI 组件
+# Skyz-Gulu - 一个 Vue UI 组件
 
 [![Build Status](https://travis-ci.org/SkyZhou197/gulu-test-1.svg?branch=master)](https://travis-ci.org/SkyZhou197/gulu-test-1)
 
 ## 介绍
+本项目是完全用 Vue.js 编写的一套前端 UI 框架。
+
 
 ## 开始使用
 
@@ -35,7 +37,7 @@ IE 15 及以上浏览器都支持此样式。
 2. 安装 gulu
 
 ```
-npm i --save skyzhou-test-1
+npm i --save skyz-gulu
 ```
 
 3. 引入 gulu
