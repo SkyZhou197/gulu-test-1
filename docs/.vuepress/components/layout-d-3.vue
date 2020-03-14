@@ -1,12 +1,12 @@
 <template>
   <div>
-    <g-layout style="height: 15vh;">
-      <g-header>Header</g-header>
+    <g-layout style="color: white; overflow:hidden; margin-bottom:50px;">
+      <g-header style="height: 50px; background:lightskyblue;">header</g-header>
       <g-layout>
-        <g-sider show style="width: 15vh;">Sider</g-sider>
-        <g-content>Content</g-content>
+        <g-sider style="height: 100px; background:#ddd; width:200px; color: black;">sider</g-sider>
+        <g-content style="height: 100px; background:deepskyblue;">content</g-content>
       </g-layout>
-      <g-footer>Footer</g-footer>
+      <g-footer style="height: 50px; background:lightskyblue;">footer</g-footer>
     </g-layout>
   </div>
 </template>
@@ -27,17 +27,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.header {
-  background: rgb(0, 255, 191);
-}
-.content {
-  background: rgb(162, 0, 255);
-}
-.footer {
-  background: rgb(0, 255, 255);
-}
-.sider {
-  background: rgb(255, 0, 221);
-}
-</style> 

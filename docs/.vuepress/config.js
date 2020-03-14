@@ -1,6 +1,6 @@
 module.exports = {
   base: "/skyz-gulu/",
-  title: "轱辘UI",
+  title: "Skyz-Gulu UI",
   description: "一个好用的UI框架",
   themeConfig: {
     nav: [
@@ -23,7 +23,8 @@ module.exports = {
           "/components/grid",
           "/components/layout",
           "/components/toast",
-          "/components/popover"
+          "/components/popover",
+          "/components/collapse"
         ]
       }
     ]

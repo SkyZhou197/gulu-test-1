@@ -10,7 +10,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   name: "GuluToast",
@@ -43,17 +42,16 @@ export default {
       }
     }
   },
-
+  mounted() {
+    this.updateStyles();
+    this.execAutoClose();
+  },
   computed: {
     toastClasses() {
       return {
         [`position-${this.position}`]: true
       };
     }
-  },
-  mounted() {
-    this.updateStyles();
-    this.execAutoClose();
   },
   methods: {
     updateStyles() {
@@ -78,14 +76,13 @@ export default {
     onClickClose() {
       this.close();
       if (this.closeButton && typeof this.closeButton.callback === "function") {
-        this.closeButton.callback(this);
+        this.closeButton.callback(this); //this === toast实例
       }
     }
   }
 };
 </script>
-
-<style lang="scss" scoped>
+<style scoped lang="scss">
 $font-size: 14px;
 $toast-min-height: 40px;
 $toast-bg: rgba(0, 0, 0, 0.75);
@@ -157,7 +154,6 @@ $toast-bg: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
   padding: 0 16px;
-
   .message {
     padding: 8px 0;
   }
