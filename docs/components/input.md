@@ -2,7 +2,7 @@
 title: Input
 ---# 输入框
 ## 默认样式
-文本输入框 默认样式有 hover 和 focus 的状态。
+文本输入框 默认样式有 **hover** 和 **focus** 的状态。
 ```html
 <g-input></g-input>
 ```
@@ -30,7 +30,7 @@ title: Input
 </ClientOnly>
 
 ## 提示信息
-文本输入框 可以接受 error 来设置 错误提示信息，以及接受 info 来设置 友情提示信息。
+文本输入框可以接受 **error** 来设置错误提示信息
 ```html
 <g-input value="错误提示" error="密码不能少于八位"></g-input>
 

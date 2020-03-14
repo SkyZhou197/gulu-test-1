@@ -1,18 +1,13 @@
 <template>
   <div>
-    <g-tabs :selected.sync="selectedTab" @update:selected="yyy">
+    <g-tabs :selected="selected">
       <g-tabs-head>
-        <template slot="actions">
-          <button>设置</button>
-        </template>
-        <g-tabs-item name="woman">美女</g-tabs-item>
-        <g-tabs-item name="finance">财经</g-tabs-item>
-        <g-tabs-item name="sports">体育</g-tabs-item>
+        <g-tabs-item name="1">1</g-tabs-item>
+        <g-tabs-item name="2">2</g-tabs-item>
       </g-tabs-head>
       <g-tabs-body>
-        <g-tabs-pane name="woman">美女相关资讯</g-tabs-pane>
-        <g-tabs-pane name="finance">财经相关资讯</g-tabs-pane>
-        <g-tabs-pane name="sports">体育相关资讯</g-tabs-pane>
+        <g-tabs-pane name="1">content 1</g-tabs-pane>
+        <g-tabs-pane name="2">content 2</g-tabs-pane>
       </g-tabs-body>
     </g-tabs>
   </div>
@@ -35,7 +30,7 @@ export default {
     "g-button": Button
   },
   data: {
-    selectedTab: "sports"
+    selected: "1"
   }
 };
 </script>
