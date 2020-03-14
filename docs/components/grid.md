@@ -3,10 +3,10 @@ title: Grid
 ---
 
 # 网格
-
+网格常用用于区块划分
 ## 24 格网格
 
-网格系统把一行分为 24 格，你可以通过设置每一列的 span 属性来控制它的宽度。
+网格系统把一行分为 24 格，你可以通过设置每一列的 **span** 属性来控制它的宽度。
 
 span 的总和必须为 24。
 
@@ -38,7 +38,7 @@ span 的总和必须为 24。
   </g-col>
 </g-row>
 ```
-
+预览如下:
 <ClientOnly>
 <grid-d-1></grid-d-1>
 </ClientOnly>
@@ -75,7 +75,7 @@ span 的总和必须为 24。
   </g-col>
 </g-row>
 ```
-
+预览如下:
 <ClientOnly>
 <grid-d-2></grid-d-2>
 </ClientOnly>
@@ -112,7 +112,7 @@ span 的总和必须为 24。
   </g-col>
 </g-row>
 ```
-
+预览如下:
 <ClientOnly>
 <grid-d-3></grid-d-3>
 </ClientOnly>
