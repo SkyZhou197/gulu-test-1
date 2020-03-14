@@ -1,10 +1,12 @@
 ---
 title: ButtonGroup
----# 组合按钮
+---
+# 组合按钮
+按钮的组合能够胜任更复杂的设计。
 
 ## 默认按钮
 :::tip 提示 
-组合按钮组件 (button-group.vue) 的子元素必须都是 button，如果你想使用它，请最好同时引入按钮组件 (button.vue)。这里也会使用两种组件一起使用的示例，因为它们搭配起来效果更佳。
+组合按钮组件 (button-group.vue) 的子元素必须都是 button，所以我们使用时要同时引入按钮组件(button.vue)
 :::
 ```html
 <g-button-group>
