@@ -1,7 +1,6 @@
 <template>
   <div class="tabs-head">
     <slot></slot>
-    <div class="line" ref="line"></div>
     <div class="actions-wrapper">
       <slot name="actions"></slot>
     </div>
@@ -32,12 +31,7 @@ $border-color: #ddd;
   justify-content: flex-start;
   position: relative;
   border-bottom: 1px solid $border-color;
-  > .line {
-    position: absolute;
-    bottom: 0;
-    border-bottom: 1px solid $blue;
-    transition: all 350ms;
-  }
+
   > .actions-wrapper {
     margin-left: auto;
     display: flex;
