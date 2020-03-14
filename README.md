@@ -3,8 +3,15 @@
 [![Build Status](https://travis-ci.org/SkyZhou197/gulu-test-1.svg?branch=master)](https://travis-ci.org/SkyZhou197/gulu-test-1)
 
 ## 介绍
-本项目是完全用 Vue.js 编写的一套前端 UI 框架。
+本项目是完全用 [Vue.js](https://cn.vuejs.org/index.html) 编写的一套前端 UI 框架。
 
+风格较为简洁大方，适合在 pc 端和移动端使用。已从开发者和用户角度出发，对代码进行多次重构，功能优化很多次。
+
+当前版本: **v 1.0.0**
+
+目前使用30多个单元测试用例，全部为通过，集成测试在[Travis CI](https://travis-ci.org/github/SkyZhou197/gulu-test-1)
+
+具体使用方法参考[文档](https://zhouhaomin.top/skyz-gulu/)
 
 ## 开始使用
 
@@ -43,8 +50,8 @@ npm i --save skyz-gulu
 3. 引入 gulu
 
 ```
-import {Button, ButtonGroup, Icon} from 'skyzhou-test-1'
-import 'skyzhou-test-1/dist/index.css'
+import {Button, ButtonGroup, Icon} from 'skyz-gulu'
+import 'skyz-gulu/dist/index.css'
  export default {
     name: 'app',
     components: {
@@ -54,15 +61,13 @@ import 'skyzhou-test-1/dist/index.css'
   }
 ```
 
-## 文档
-
-## 提问
 
 ## 变更记录
+* 2020-03-02 开始立项
+* 2020-03-14 发布 V 1.0.0 版本
 
 ## 联系方式
-
-## 贡献代码
+* [个人博客](https://zhouhaomin.top/)
 
 ```
 

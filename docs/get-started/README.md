@@ -14,3 +14,16 @@ import 'skyz-gulu/dist/index.css'
 ```css
 *,*::before,*::after{box-sizing: border-box;}
 ```
+
+## 引入组件
+```js
+import {Button, Icon} from 'skyz-gulu'
+import 'skyz-gulu/dist/index.css'
+ export default {
+    name: 'app',
+    components: {
+      'g-button': Button,
+      'g-icon': Icon
+    }
+  }
+```
